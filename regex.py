@@ -257,7 +257,7 @@ print(matched_words)
 my_sentence = "Look at the loom and the balloooooooon in the room lololol"
 pattern = re.compile(r"lo{2,4}") #l followed by 2 o's
 matched_words = re.findall(pattern, my_sentence)
-print(matched_words)
+print(matched_words)        
 
 # Special Sequence Characters
 # \b - match word boundaries between word characters and non word characters
